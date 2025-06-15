@@ -53,13 +53,13 @@ Each lesson folder contains a single `.py` file (or multiple files for larger pr
     First, clone the repository (you only need to do this once):
     ```sh
     git clone https://github.com/dunamismax/Python-From-The-Ground-Up-A-Project-Based-Approach.git
-    cd Python-From-The-Ground-Up-A-Project-Based-Approach
+    cd Python-From-The-Ground-Up-A-Project-Based-Approach/
     ```
 
     Then, for each lesson, navigate to its folder and use the Python interpreter to run the file.
     ```sh
     # Example for the first lesson
-    cd Part1_Python_Basics/01_HelloWorld
+    cd Python-From-The-Ground-Up-A-Project-Based-Approach/Part\ 1:\ The\ Beginner\ Path\ -\ Python\ Basics/
 
     # Run the Python script
     # On most modern systems:
