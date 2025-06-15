@@ -1,0 +1,43 @@
+{
+    "start_room_id": "hall",
+    "rooms": {
+        "hall": {
+            "name": "The Grand Hall",
+            "description": "You are in a dusty, grand hall with a high, vaulted ceiling. A large, ornate door is to the north. A small, wooden door is to the east. A dark hallway stretches to the west.",
+            "exits": {
+                "north": "throne_room",
+                "east": "armory",
+                "west": "dark_corridor"
+            }
+        },
+        "throne_room": {
+            "name": "The Throne Room",
+            "description": "This must be the throne room. A massive, gilded throne sits atop a dais. The only exit is the large door to the south.",
+            "exits": {
+                "south": "hall"
+            }
+        },
+        "armory": {
+            "name": "The Armory",
+            "description": "You are in a small armory. Racks that once held swords and shields are now empty. A rusty helmet lies in the corner. The only exit is back to the west.",
+            "exits": {
+                "west": "hall"
+            }
+        },
+        "dark_corridor": {
+            "name": "A Dark Corridor",
+            "description": "A dark, narrow corridor stretches before you. It feels damp and cold. You can see a faint light at the far end to the west. You can return to the hall to the east.",
+            "exits": {
+                "east": "hall",
+                "west": "library"
+            }
+        },
+        "library": {
+            "name": "The Old Library",
+            "description": "You've found the source of the light! This is a circular library filled with decaying books. A single, flickering candle sits on a desk. A passage leads back east.",
+            "exits": {
+                "east": "dark_corridor"
+            }
+        }
+    }
+}
