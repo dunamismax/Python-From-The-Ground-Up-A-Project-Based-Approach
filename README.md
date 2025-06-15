@@ -1,4 +1,4 @@
-# Python From The Ground Up - A Project-Based Approach
+# Python From The Ground Up 
 
 <p align="left">
   <b>A complete, open-source curriculum that teaches you Python by building a versatile portfolio of real-world tools and applications.</b>
